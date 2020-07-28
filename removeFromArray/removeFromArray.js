@@ -5,9 +5,6 @@ const removeFromArray = function(aArray, ...valueToRemove) {
                 // console.log(aArray[i], valueToRemove[k]);
                 aArray.splice(i,1);
                 i = 0;
-            }else{
-                // console.log('Else statement', aArray[i], valueToRemove[k]);
-                continue;
             }
         }
     }
