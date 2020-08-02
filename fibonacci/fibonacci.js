@@ -17,6 +17,4 @@ const fibonacci = function(number) {
     return currentValue;
 }
 
-console.log(fibonacci(6))
-
 module.exports = fibonacci
